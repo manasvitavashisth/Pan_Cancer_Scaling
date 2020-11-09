@@ -3,7 +3,7 @@ library(survival)
 library(MASS)
 library(enrichR)
 # Load data
-######reading the files into the program
+######Reading the files into the program
 
 
  thymoma = read.table("thymoma_trak1.txt", header = FALSE,sep=",",stringsAsFactors = FALSE)
